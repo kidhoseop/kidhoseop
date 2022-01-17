@@ -1,0 +1,10 @@
+.main-background{text-align: center;padding:0;position: relative;}
+.main-text{padding-top:30px;float: none;margin-top: 0;}
+.main-background .main-container img{display: block;width: 326px;margin: auto;float: none;position: absolute;left:0;right:0;bottom:0;}
+
+.product-wrap .product-content .product-box{width: 100%;}
+.portfolio-content .portfolio-box {width: 100%;}
+
+
+footer{padding:0;margin:60px auto;}
+.footer-box{width: 100%;margin: 20px auto;}
