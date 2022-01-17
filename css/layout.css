@@ -1,0 +1,183 @@
+.main-background {
+  width: 100%;
+  height: 550px;
+  /* background:mediumpurple linear-gradient(rgba(34, 126, 247, 0.5),rgba(23, 1, 73, 0.5)); */
+  background-image: linear-gradient(to bottom, #499add, #4e61c0);
+  padding: 20px;
+  color: white;
+}
+.main-container {
+  max-width: 1200px;
+  margin: auto;
+}
+.main-text {
+  float: left;
+  margin-top: 50px;
+}
+.main-iphone {
+  width: 400px;
+  float: right;
+  margin-top: 135px;
+}
+.btn {
+  padding: 15px 20px;
+  font-size: 16px;
+  font-family: 'nanumsquare';
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-black {
+  background: #333;
+  color: #fff;
+}
+.btn-black:hover {
+  background: #e2e2e2;
+  color: #151515;
+  font-weight: 600;
+}
+/* 버튼스타일은 나중에 재활용 하고 싶다면 뼈대와 살점을 분리해놓는게 좋다 */
+/* 버튼의 뼈대와 버튼 색을 지정해주는 class를 두개 만드는것 - 확장성 용이*/
+
+/* .main-background .main-title{
+  float: left;
+  width: 100%;
+  max-width: 50%;
+  padding:100px 0 0 150px;
+}
+.main-title h1, .main-title p{color:#fff;text-align: left;}
+.main-title button{border:none;width: 100px;height: 40px;border-radius: 5px;font-weight: 600;background:#333;color:#fff}
+.main-background .main-image{
+  float: right;
+  width: 100%;
+  height: 100%;
+  max-width: 450px;
+  position: relative;
+}
+.main-image img{width: 100%;position:absolute;bottom: 0;right:150px;}  */
+
+.sub-title {
+  width: 100%;
+  max-width: 700px;
+  margin: 65px auto;
+  text-align: center;
+  color: #151515;
+}
+.sub-title p {
+  color: #151515;
+  text-align: center;
+}
+/* .sub-title button {
+  width: 150px;
+  height: 45px;
+  margin: auto;
+  display: block;
+  border: none;
+  background: #333;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+} */
+
+.product-wrap {
+  width: 100%;
+  padding: 50px 0 50px 0;
+  background: mediumpurple;
+}
+.product-wrap h1,
+p {
+  color: #fff;
+  text-align: center;
+}
+.product-content {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+}
+.product-wrap .product-content .product-box {
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin: 65px auto;
+}
+.product-wrap .product-content .product-box i {
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  padding-top: 25px;
+  box-sizing: border-box;
+  color: mediumpurple;
+  text-align: center;
+}
+.prodcut-wrap .product-content .prodcut-box {
+  text-align: center;
+}
+
+.portfolio-title {
+  width: 100%;
+  padding: 20px;
+}
+.portfolio-title p,
+h2 {
+  color: #151515;
+  text-align: center;
+}
+
+.portfolio-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.portfolio-content .portfolio-box {
+  width: 50%;
+  float: left;
+}
+.portfolio-content .portfolio-box .portfolio-background {
+  position: relative;
+}
+.white-box{position: absolute;width: 100%;height: 100%;cursor: pointer;transition: all 0.5s;}
+.portfolio-content .portfolio-box .portfolio-background img {
+  width: 100%;
+  vertical-align: top;
+}
+.portfolio-content .portfolio-box .portfolio-background .portfolio-text {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+.portfolio-content .portfolio-box .portfolio-background .portfolio-text h2 {
+  text-align: left;
+  color: #fff;
+}
+.white-box:hover{border: 30px solid white;}
+
+
+footer {
+  width: 100%;
+  max-width: 600px;
+  padding: 100px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.footer-box {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+}
+.footer-box i {
+  background: mediumpurple;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  padding-top: 25px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+}
+footer p {
+  color: #151515;
+  margin-top: 20px;
+}
